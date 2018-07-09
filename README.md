@@ -13,7 +13,7 @@ If you're working locally, you can install a web server, or you can run the [exa
 To get the code, open a terminal, `cd` into the public directory of whichever webserver you are using, and:
 
 ```sh
-git clone 
+git clone git@github.com:UNEadvancedweb/tutorial-conway-life-t1.git
 ```
 
 This will clone this code using the git version control system. That will, amongst other things, let you switch between different branches (eg, the solution and the start of the exercise)
