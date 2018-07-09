@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <title>Conway's Game of Life</title>
+
+  <h1>Conway's Game of Life</h1>
+  <div id="game" style="font-family: monospace; cursor: pointer;">
+  </div>
+  <div>
+      <button onclick="javascript: { gameOfLife.stepGame(); render(); }">Step</button>
+  </div>
+
+
+  <script src="gameOfLife.js"></script>
+  <script src="render.js"></script>
+  <script>
+    gameOfLife.emptyBoard()
+    render()
+  </script>
+
+</html>
